@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>More - TraDE Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="icon" href="logo.png" type="image/png">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .glow {
+      text-shadow: 0 0 10px #22d3ee, 0 0 20px #22d3ee, 0 0 30px #22d3ee;
+    }
+  </style>
+</head>
+<body class="text-white bg-gradient-to-b from-[#081018] via-[#0a1a2a] to-[#0f263d]">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center py-6 px-6 md:px-10 bg-[#11162A] shadow-md fixed w-full top-0 z-10">
+    <h1 class="text-2xl font-bold text-white">TraDE</h1>
+  </nav>
+
+  <!-- Main Section -->
+  <section class="pt-32 pb-20 px-6 md:px-16 space-y-14 max-w-screen-lg mx-auto">
+
+    <!-- 1. Dasar Trading -->
+    <div data-aos="fade-up">
+      <h2 class="text-3xl md:text-4xl font-bold text-cyan-400 glow mb-4">Apa Itu Trading?</h2>
+      <p class="text-gray-300 leading-relaxed">
+        Trading adalah aktivitas jual beli instrumen keuangan seperti saham, forex, atau kripto untuk mendapatkan keuntungan dari selisih harga beli dan jual. Trading bisa dilakukan secara harian (day trading), mingguan (swing), atau jangka panjang (investasi).
+      </p>
+    </div>
+
+    <!-- 2. Jenis Trading -->
+    <div data-aos="fade-up">
+      <h3 class="text-2xl font-bold text-cyan-300 mb-3">Jenis-Jenis Trading</h3>
+      <ul class="list-disc list-inside text-gray-300 space-y-2">
+        <li><strong>Forex:</strong> Trading mata uang asing, seperti USD/IDR, EUR/USD.</li>
+        <li><strong>Saham:</strong> Membeli saham perusahaan seperti BBRI, GOTO, atau AAPL.</li>
+        <li><strong>Crypto:</strong> Trading koin digital seperti Bitcoin, Ethereum, dan lainnya.</li>
+      </ul>
+    </div>
+
+    <!-- 3. Akun Demo & Syariah -->
+    <div data-aos="fade-up">
+      <h3 class="text-2xl font-bold text-cyan-300 mb-3">Akun Demo & Syariah</h3>
+      <p class="text-gray-300 mb-2">
+        Akun demo adalah akun simulasi gratis yang digunakan untuk belajar trading tanpa risiko uang asli. Akun ini cocok untuk pemula agar terbiasa dengan platform dan strategi.
+      </p>
+      <p class="text-gray-300">
+        Trading syariah menghindari riba, gharar (ketidakpastian), dan spekulasi berlebihan. Pastikan menggunakan akun bebas swap (swap-free) untuk tetap sesuai prinsip Islam.
+      </p>
+    </div>
+
+    <!-- 4. Candlestick -->
+    <div data-aos="fade-up">
+      <h3 class="text-2xl font-bold text-cyan-300 mb-3">Pengenalan Candlestick</h3>
+      <p class="text-gray-300 mb-4">
+        Candlestick adalah grafik yang menunjukkan pergerakan harga dalam periode waktu tertentu. Setiap candle menunjukkan harga pembukaan, penutupan, tertinggi, dan terendah.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="bg-[#111a2a] p-4 rounded-lg shadow-md">
+          <h4 class="font-semibold text-cyan-400 mb-2">Bullish Candle</h4>
+          <p>Candle hijau atau putih yang menunjukkan harga naik (close > open).</p>
+        </div>
+        <div class="bg-[#111a2a] p-4 rounded-lg shadow-md">
+          <h4 class="font-semibold text-cyan-400 mb-2">Bearish Candle</h4>
+          <p>Candle merah atau hitam yang menunjukkan harga turun (open > close).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Pola Candlestick -->
+    <div data-aos="fade-up">
+      <h3 class="text-2xl font-bold text-cyan-300 mb-3">Pola Candlestick Umum</h3>
+      <ul class="list-disc list-inside text-gray-300 space-y-2">
+        <li><strong>Doji:</strong> Harga open dan close hampir sama → tanda keraguan pasar.</li>
+        <li><strong>Hammer:</strong> Candle kecil dengan ekor bawah panjang → potensi pembalikan naik.</li>
+        <li><strong>Shooting Star:</strong> Candle kecil dengan ekor atas panjang → potensi turun.</li>
+        <li><strong>Engulfing:</strong> Candle besar menelan candle sebelumnya → sinyal kuat.</li>
+      </ul>
+    </div>
+
+    <!-- Button Kembali -->
+    <div class="text-center mt-12">
+      <a href="index.html" class="inline-block bg-cyan-500 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-cyan-600 transition duration-300">
+        ← Kembali ke Beranda
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-[#0A0E1A]">
+    <p class="text-gray-400 text-sm">&copy; 2025 SyafIQ. Official Group. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
